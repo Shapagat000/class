@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    width:750px;
+    height: 350px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.pic{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px 0 0 10px;
+}
+.round{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+h2{
+    margin-top: 40px;
+    margin-left: -25px;
+    color:  hsl(217, 19%, 35%);
+}
+.text{
+    margin-left: -25px;
+    color:hsl(214, 17%, 51%);
+}
+.grey{
+    color:hsl(214, 17%, 51%);
+    margin-top: 0px;
+    
+}
+h4{
+    margin-left: 70px;
+    margin-bottom:-70px;
+}
+.foot {
+    display: grid;
+    grid-template-columns: 45px 200px;
+    grid-template-rows: 20px 20px;
+    margin-top: 30px;
+}
+
+.foot p {
+    margin-top: 0px;
+}
+
+.foot p:nth-child(3) {
+    color: rgba(0, 0, 0, 0.458);
+}
+.shareicon {
+    position: relative;
+    left: 480px;
+    bottom: 45px;
+    background-color: #ecf0f6;
+    padding: 15px;
+    border-radius: 50%;
+}
+.ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
